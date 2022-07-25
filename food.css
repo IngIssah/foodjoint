@@ -1,0 +1,122 @@
+
+header {
+ box-shadow: 1px 1px 3px #cccccc;
+}
+
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 20px ;
+
+}
+ 
+ nav img {
+ 	height: 50px;
+ 	height: 50px;
+ }
+
+ nav ul {
+ 	display: flex;
+ 	list-style-type: none;
+ }
+
+ nav ul li {
+ 	padding-right: 20px;
+ }
+
+ nav ul .navi li a {
+ 	text-decoration: none;
+ 	font-weight: bold;
+ 	font-size: 20p;
+ }
+
+  .navi a:hover {
+    color: white;
+    background: #A5CE39;  
+    padding: 20px;
+    transform: 1s;
+}
+ 
+
+ .layout {
+ 	display: flex;
+ }
+
+ aside {
+ 	width: 20%;
+ 	height: 100vh;
+ 	background-color: green;
+ }
+
+.layout main {
+     width: 80%;
+     height: 100vh;
+     padding: 20px;
+     
+ }
+ .search input{
+   width: 20%;
+   height: 30px;
+   border-radius: 3px;
+   padding-left: 10px;
+ }
+
+ .search button{
+   background-color: black;
+   color: white;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 5px;
+   border-radius: 10px;
+ }
+ .cat ul li{
+   list-style-type: none;
+   margin-top: 20px;
+   align-items: center;
+
+
+ }
+.cat ul li a{
+   text-decoration: none;
+   font-size: 30px;
+   margin-top: 20px;
+}
+.search{
+   text-align: right;
+   margin-bottom: 10px;
+}
+.product{
+   display: flex;
+   justify-content:space-around;
+   flex-wrap: wrap;
+}
+.product .card{
+   height: 350px;
+   width: 200px;
+   box-shadow:  1px 1px 2px #ccc;
+   text-align: center;
+   border-radius: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   
+
+}
+.card img{
+   width: 200px;
+   height: 150px;
+}
+.product .card button{
+   padding: 5px;
+   background-color: darkred;
+   color: white;
+   border-radius: 10px;
+   transition: .5s;
+
+
+}
+.product .card button:hover{
+   background-color: black;
+   color: white;
+   transition: .5s;
+}
